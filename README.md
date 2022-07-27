@@ -52,4 +52,7 @@ APP主界面-我忘记在哪儿设置了
 
 ## 演示视频
 
-<video src=" https://b23.tv/93ydRry"></video>
+<html>
+https://b23.tv/93ydRry
+</html>
+
