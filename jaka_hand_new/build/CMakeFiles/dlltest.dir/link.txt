@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/dlltest.dir/main.cpp.o  -o dlltest   -L/home/aemc/catkin_ws/src/jaka_hand_new/$(SRC_ROOT_PATH)  -L/home/aemc/catkin_ws/src/jaka_hand_new/lib  -Wl,-rpath,/home/aemc/catkin_ws/src/jaka_hand_new/$(SRC_ROOT_PATH):/home/aemc/catkin_ws/src/jaka_hand_new/lib -lpthread -ljakaAPI 
