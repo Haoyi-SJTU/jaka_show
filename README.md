@@ -62,7 +62,6 @@ APP主界面-我忘记在哪儿设置了
 
 ## 演示视频
 
-<html>
 [JAKA节卡minicobot机械臂+机械手抓取测试](https://www.bilibili.com/video/BV1Rr4y1L72G/)
-</html>
+
 
