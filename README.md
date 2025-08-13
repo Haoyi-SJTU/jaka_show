@@ -63,5 +63,4 @@ APP主界面
 ## 演示视频
 
 [JAKA节卡minicobot机械臂+机械手抓取测试](https://www.bilibili.com/video/BV1NtbazxEJS/)
-[[![OfDb8s.md.png](https://ooo.0x0.ooo/2025/08/13/OfDb8s.md.png)](https://img.tg/image/OfDb8s)](https://www.bilibili.com/video/BV1NtbazxEJS/)
 
