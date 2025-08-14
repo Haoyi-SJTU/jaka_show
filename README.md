@@ -62,5 +62,5 @@ APP主界面
 
 ## 演示视频
 
-[JAKA节卡minicobot机械臂+机械手抓取测试](https://www.bilibili.com/video/BV1NtbazxEJS/)
-
+[节卡机械臂+仿人手+realsense抓取测试](https://www.bilibili.com/video/BV1NtbazxEJS/)
+[JAKA节卡minicobot机械臂+机械手抓取测试](https://www.bilibili.com/video/BV1Rr4y1L72G/)
