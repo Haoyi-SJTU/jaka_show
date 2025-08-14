@@ -1,4 +1,76 @@
 # jaka_show
+JAKA Robot Arm Driver and End-Effector Serial Communication
+
+## Description
+This package is designed for connecting and controlling the JAKA robotic arm, enabling it to move to specified positions. It also supports 485 communication through the end-effector interface.
+
+## Requirements
+- Ubuntu 20.04
+
+## Setup Instructions
+
+0. **Upgrade 485 Communication Functionality for the Controller Cabinet**
+
+The stable version of the app does not currently support the 485 communication interface. You need to install a patch package.
+   ```
+   APP Main Interface > Settings > Upgrade > Upload Upgrade Package
+   ```
+
+1. **Create the Build Directory**
+   ```shell
+   mkdir build
+   cd build
+   ```
+
+
+2. **Compile the Package Using CMake in the Build Directory**
+   ```
+   cmake ..
+   make
+   ```
+
+3. **Configure 485 Communication on the JAKA App**
+If 485 communication is required, set it up in the JAKA App as follows:
+   ```
+   APP Main Interface > Settings > Hardware and Communication > IO > Tool Side > Digital Output
+   ```
+
+Click on the digital output port name and configure the communication parameters such as baud rate, data bits, parity, etc., based on your pre-defined settings.
+
+4. **Enable 12V/24V Power Supply for the End-Effector (if needed)**
+
+If the end-effector requires a DC voltage for power, enable 12V/24V as follows:
+   ```
+   APP Main Interface > Settings > Hardware and Communication > IO > Tool Side > 12V/24V Power Supply
+   ```
+   Click on 12V/24V enable and select 12V or 24V based on your requirements.
+
+
+5. **Run the Application**
+   ```shell
+   ./dlltest
+   ```
+
+
+## Additional Notes
+
+The 485 communication functionality is currently in testing and has not been officially released in the stable version. There are a few known issues that have not yet been addressed:
+
+- Communication is non-blocking. To ensure the transmitted signals are correctly executed, you must estimate the time required for the communication to be received and for the end effector (e.g., the robotic hand) to start moving. Make sure to implement an appropriate delay in the program, or the communication might fail.
+
+- After each communication attempt, the app will report the following error: **"Receive TIO RS485 command feedback timeout"**. This issue has not been resolved by JAKA so far. However, the error does not have any practical impact on functionality. Simply press the "OK" button to dismiss the error.
+
+The folder also contains a plastic cover for the connection flange between the robotic arm and the MiniCobot. This cover is used to hide the abstract connection point.
+
+## Demo Videos
+
+- [JAKA Robotic Arm + Human-Like Hand + RealSense Grasping Test](https://www.bilibili.com/video/BV1NtbazxEJS/)
+- [JAKA MiniCobot Robotic Arm + Gripper Grasping Test](https://www.bilibili.com/video/BV1Rr4y1L72G/)
+
+
+
+
+# jaka_show
 节卡JAKA机械臂驱动及末端串口通信
 
 ## 功能描述
@@ -63,4 +135,5 @@ APP主界面
 ## 演示视频
 
 [节卡机械臂+仿人手+realsense抓取测试](https://www.bilibili.com/video/BV1NtbazxEJS/)
+
 [JAKA节卡minicobot机械臂+机械手抓取测试](https://www.bilibili.com/video/BV1Rr4y1L72G/)
