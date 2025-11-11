@@ -67,7 +67,11 @@ The folder also contains a plastic cover for the connection flange between the r
 - [JAKA Robotic Arm + Human-Like Hand + RealSense Grasping Test](https://www.bilibili.com/video/BV1NtbazxEJS/)
 - [JAKA MiniCobot Robotic Arm + Gripper Grasping Test](https://www.bilibili.com/video/BV1Rr4y1L72G/)
 
+## Other related repositories：
 
+minicobo robot URDF model [`jaka_description`](https://github.com/Haoyi-SJTU/jaka_description)
+
+JAKA robot joint velocity interface package[`jaka_velocity`](https://github.com/Haoyi-SJTU/jaka_velocity)
 
 
 # jaka_show
@@ -137,3 +141,11 @@ APP主界面
 [节卡机械臂+仿人手+realsense抓取测试](https://www.bilibili.com/video/BV1NtbazxEJS/)
 
 [JAKA节卡minicobot机械臂+机械手抓取测试](https://www.bilibili.com/video/BV1Rr4y1L72G/)
+
+## 其它相关库：
+
+minicobo机械臂URDF模型[`jaka_description`](https://github.com/Haoyi-SJTU/jaka_description)
+
+节卡机器人速度接口封装[`jaka_velocity`](https://github.com/Haoyi-SJTU/jaka_velocity)
+
+
