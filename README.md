@@ -3,6 +3,9 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
 
+![](figure/figure1.jpg)
+![](figure/figure2.jpg)
+
 JAKA Robot Arm Driver and End-Effector Serial Communication
 
 ## Description
@@ -129,6 +132,7 @@ APP主界面
 ```
 ./dlltest
 ```
+
 
 ## 补充说明
 
